@@ -41,24 +41,6 @@
       "title": "Spagetti a la Rabiatta",
       "method": "asdf;kjans dflkjasdnfijasdh flkjdsng ouyef lkdsn sudf ldkj sudfh sdifjgv sldjfkn liduf ijn ldk",
       "cookingTime": "40 minutes",
-      "id": "ld1oFor"
-    },
-    {
-      "title": "Spagetti a la Rabiatta",
-      "method": "asdf;kjans dflkjasdnfijasdh flkjdsng ouyef lkdsn sudf ldkj sudfh sdifjgv sldjfkn liduf ijn ldk",
-      "cookingTime": "40 minutes",
-      "id": "FrbNs1i"
-    },
-    {
-      "title": "Spagetti a la Rabiatta",
-      "method": "asdf;kjans dflkjasdnfijasdh flkjdsng ouyef lkdsn sudf ldkj sudfh sdifjgv sldjfkn liduf ijn ldk",
-      "cookingTime": "40 minutes",
-      "id": "zvR3nEb"
-    },
-    {
-      "title": "Spagetti a la Rabiatta",
-      "method": "asdf;kjans dflkjasdnfijasdh flkjdsng ouyef lkdsn sudf ldkj sudfh sdifjgv sldjfkn liduf ijn ldk",
-      "cookingTime": "40 minutes",
       "ingredients": [
         "spagetti",
         "coriander",
@@ -67,6 +49,18 @@
         "..."
       ],
       "id": "ZotUDJ3"
+    },
+    {
+      "title": "Gnoqui",
+      "method": "blah blah blah ",
+      "cookingTime": "34 minutes",
+      "ingredients": [
+        "Gnoqui",
+        "salt",
+        "mierda",
+        "pata de gallina"
+      ],
+      "id": "Nzo2oFG"
     }
   ]
 }

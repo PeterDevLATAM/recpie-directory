@@ -1,7 +1,10 @@
 import "./create.styles.css";
 
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useFetch } from "../../hooks/useFetch";
+import {useHistory} from "react-router-dom"
+
+
 
 export default function Create() {
   const [title, setTitle] = useState("");
@@ -11,6 +14,7 @@ export default function Create() {
   const [ingredients, setIngredients] = useState([]);
 
   const ingredientInput = useRef(null);
+  const history = useHistory()
 
 
   const { postData, data, error } = useFetch(
@@ -35,6 +39,12 @@ export default function Create() {
     setNewIngredient("");
     ingredientInput.current.focus(); //it focus on the dom element so you don't have to click on it again
   };
+  //Redirect the user when the data is posted 
+  useEffect(()=>{
+    if (data) history.push("/")
+
+  },[data])
+
 
   return (
     <div className="create">
